@@ -1,0 +1,139 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="App.uss" />
+    <ui:VisualElement name="app" class="app">
+        <ui:VisualElement name="header" class="header">
+            <ui:VisualElement class="header__titles">
+                <ui:Label text="Adaptive Sync" class="header__title" />
+                <ui:Label name="client-label" class="header__subtitle" />
+            </ui:VisualElement>
+            <ui:Button name="network-pill" class="pill" />
+        </ui:VisualElement>
+
+        <ui:VisualElement name="pages" class="pages">
+            <ui:ScrollView name="page-profiles" class="page">
+                <ui:Button name="create-profile" text="+  Новый профиль" class="button button--primary" />
+                <ui:Label name="profiles-empty" class="empty" text="Локальная БД пуста. Создайте профиль или синхронизируйтесь с сервером." />
+                <ui:VisualElement name="profile-list" class="list" />
+            </ui:ScrollView>
+
+            <ui:ScrollView name="page-sync" class="page">
+                <ui:VisualElement class="card">
+                    <ui:VisualElement class="row row--spread">
+                        <ui:VisualElement>
+                            <ui:Label text="Сеть" class="card__title" />
+                            <ui:Label name="network-caption" class="card__caption" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="online-switch" class="switch">
+                            <ui:VisualElement class="switch__knob" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+
+                <ui:Button name="sync-button" class="button button--primary button--large">
+                    <ui:VisualElement name="sync-spinner" class="spinner" />
+                    <ui:Label name="sync-button-label" text="Синхронизировать" class="button__label" />
+                </ui:Button>
+                <ui:Label name="sync-status" class="status" />
+
+                <ui:VisualElement class="stats">
+                    <ui:VisualElement class="stat">
+                        <ui:Label name="stat-pending" class="stat__value" />
+                        <ui:Label text="в журнале" class="stat__caption" />
+                    </ui:VisualElement>
+                    <ui:VisualElement class="stat">
+                        <ui:Label name="stat-cursor" class="stat__value" />
+                        <ui:Label text="курсор сервера" class="stat__caption" />
+                    </ui:VisualElement>
+                    <ui:VisualElement class="stat">
+                        <ui:Label name="stat-remote" class="stat__value" />
+                        <ui:Label text="от других" class="stat__caption" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+
+                <ui:Label text="Результат последней синхронизации" class="section-title" />
+                <ui:Label name="results-empty" class="empty" text="Синхронизаций ещё не было." />
+                <ui:VisualElement name="result-list" class="list" />
+            </ui:ScrollView>
+
+            <ui:ScrollView name="page-journal" class="page">
+                <ui:Label name="journal-summary" class="section-title" />
+                <ui:Label name="journal-empty" class="empty" text="Журнал пуст: все изменения отправлены на сервер." />
+                <ui:VisualElement name="journal-list" class="list" />
+            </ui:ScrollView>
+
+            <ui:ScrollView name="page-settings" class="page">
+                <ui:VisualElement class="card">
+                    <ui:Label text="Сервер синхронизации" class="card__title" />
+                    <ui:TextField name="server-url" class="field" />
+                    <ui:Button name="check-server" text="Проверить соединение" class="button button--secondary" />
+                    <ui:Label name="server-health" class="card__caption" />
+                </ui:VisualElement>
+
+                <ui:VisualElement name="strategy-card" class="card">
+                    <ui:Label text="Стратегия сервера" class="card__title" />
+                    <ui:Label name="strategy-hint" class="card__caption" />
+                    <ui:VisualElement name="strategy-list" class="chips" />
+                </ui:VisualElement>
+
+                <ui:VisualElement class="card">
+                    <ui:Label text="Клиент" class="card__title" />
+                    <ui:Label text="У каждой версии своя локальная БД — один телефон может играть обе роли." class="card__caption" />
+                    <ui:VisualElement class="segmented">
+                        <ui:Button name="version-v1" text="v1 · старая схема" class="segmented__item" />
+                        <ui:Button name="version-v3" text="v3 · текущая схема" class="segmented__item" />
+                    </ui:VisualElement>
+                    <ui:Label name="client-info" class="card__caption" />
+                </ui:VisualElement>
+
+                <ui:VisualElement class="card">
+                    <ui:Label text="Локальная БД" class="card__title" />
+                    <ui:Label name="db-path" class="card__caption card__caption--mono" />
+                    <ui:Button name="reset-db" text="Сбросить локальную БД" class="button button--danger" />
+                </ui:VisualElement>
+            </ui:ScrollView>
+        </ui:VisualElement>
+
+        <ui:VisualElement name="tabbar" class="tabbar">
+            <ui:Button name="tab-profiles" class="tab">
+                <ui:VisualElement class="tab__indicator" />
+                <ui:Label text="Профили" class="tab__label" />
+            </ui:Button>
+            <ui:Button name="tab-sync" class="tab">
+                <ui:VisualElement class="tab__indicator" />
+                <ui:Label text="Синхронизация" class="tab__label" />
+                <ui:Label name="tab-sync-badge" class="tab__badge" />
+            </ui:Button>
+            <ui:Button name="tab-journal" class="tab">
+                <ui:VisualElement class="tab__indicator" />
+                <ui:Label text="Журнал" class="tab__label" />
+            </ui:Button>
+            <ui:Button name="tab-settings" class="tab">
+                <ui:VisualElement class="tab__indicator" />
+                <ui:Label text="Настройки" class="tab__label" />
+            </ui:Button>
+        </ui:VisualElement>
+
+        <ui:Label name="toast" class="toast" />
+
+        <ui:VisualElement name="sheet-overlay" class="overlay">
+            <ui:VisualElement name="sheet" class="sheet">
+                <ui:VisualElement class="sheet__handle" />
+                <ui:Label name="sheet-title" class="sheet__title" />
+                <ui:TextField name="nickname-field" label="Никнейм" class="field" />
+                <ui:TextField name="coins-field" label="Монеты" class="field" />
+                <ui:VisualElement name="v2-fields">
+                    <ui:TextField name="avatar-field" label="Аватар · avatar_id (v2)" class="field" />
+                    <ui:TextField name="premium-field" label="Премиальная валюта · premium_currency (v2)" class="field" />
+                </ui:VisualElement>
+                <ui:TextField name="region-field" label="Регион · region (v3)" class="field" />
+                <ui:Label name="sheet-hint" class="card__caption" />
+                <ui:Label name="sheet-error" class="field-error" />
+                <ui:VisualElement class="row">
+                    <ui:Button name="sheet-cancel" text="Отмена" class="button button--secondary row__item" />
+                    <ui:Button name="sheet-save" text="Сохранить" class="button button--primary row__item" />
+                </ui:VisualElement>
+                <ui:Button name="sheet-delete" text="Удалить профиль" class="button button--danger" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

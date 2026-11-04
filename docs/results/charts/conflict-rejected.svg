@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" width="760" height="440" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<rect width="760" height="440" fill="#fcfcfb"/>
+<text x="64" y="28" font-size="16" font-weight="600" fill="#0b0b0b">Отклонённые операции клиентов, % — конфликтность</text>
+<line x1="64" y1="54" x2="86" y2="54" stroke="#2a78d6" stroke-width="2" stroke-linecap="round"/>
+<circle cx="75" cy="54" r="4.5" stroke="#fcfcfb" stroke-width="2" fill="#2a78d6"/><text x="92" y="58" font-size="12" fill="#52514e">Adaptive</text>
+<line x1="160" y1="54" x2="182" y2="54" stroke="#eb6834" stroke-width="2" stroke-linecap="round"/>
+<rect x="166.5" y="49.5" width="9" height="9" stroke="#fcfcfb" stroke-width="2" fill="#eb6834"/><text x="188" y="58" font-size="12" fill="#52514e">ServerWins</text>
+<line x1="270" y1="54" x2="292" y2="54" stroke="#1baf7a" stroke-width="2" stroke-linecap="round"/>
+<path d="M281,48.5 L286.5,58.5 L275.5,58.5 Z" stroke="#fcfcfb" stroke-width="2" fill="#1baf7a"/><text x="298" y="58" font-size="12" fill="#52514e">Lww</text>
+<line x1="331" y1="54" x2="353" y2="54" stroke="#eda100" stroke-width="2" stroke-linecap="round"/>
+<path d="M342,48.5 L347.5,54 L342,59.5 L336.5,54 Z" stroke="#fcfcfb" stroke-width="2" fill="#eda100"/><text x="359" y="58" font-size="12" fill="#52514e">ClientWins</text>
+<line x1="441" y1="54" x2="463" y2="54" stroke="#e87ba4" stroke-width="2" stroke-linecap="round"/>
+<path d="M447.5,49.5 L456.5,58.5 M456.5,49.5 L447.5,58.5" stroke="#e87ba4" stroke-width="2.5" stroke-linecap="round"/><text x="469" y="58" font-size="12" fill="#52514e">FieldLwwNoSchema</text>
+<line x1="64" y1="376" x2="736" y2="376" stroke="#b9b8b2" stroke-width="1"/>
+<text x="56" y="380" font-size="11" text-anchor="end" fill="#52514e">0</text>
+<line x1="64" y1="319.2" x2="736" y2="319.2" stroke="#e4e3df" stroke-width="1"/>
+<text x="56" y="323.2" font-size="11" text-anchor="end" fill="#52514e">20</text>
+<line x1="64" y1="262.4" x2="736" y2="262.4" stroke="#e4e3df" stroke-width="1"/>
+<text x="56" y="266.4" font-size="11" text-anchor="end" fill="#52514e">40</text>
+<line x1="64" y1="205.6" x2="736" y2="205.6" stroke="#e4e3df" stroke-width="1"/>
+<text x="56" y="209.6" font-size="11" text-anchor="end" fill="#52514e">60</text>
+<line x1="64" y1="148.8" x2="736" y2="148.8" stroke="#e4e3df" stroke-width="1"/>
+<text x="56" y="152.8" font-size="11" text-anchor="end" fill="#52514e">80</text>
+<line x1="64" y1="92" x2="736" y2="92" stroke="#e4e3df" stroke-width="1"/>
+<text x="56" y="96" font-size="11" text-anchor="end" fill="#52514e">100</text>
+<text x="64" y="394" font-size="11" text-anchor="middle" fill="#52514e">0</text>
+<text x="176" y="394" font-size="11" text-anchor="middle" fill="#52514e">10</text>
+<text x="288" y="394" font-size="11" text-anchor="middle" fill="#52514e">20</text>
+<text x="400" y="394" font-size="11" text-anchor="middle" fill="#52514e">30</text>
+<text x="512" y="394" font-size="11" text-anchor="middle" fill="#52514e">40</text>
+<text x="624" y="394" font-size="11" text-anchor="middle" fill="#52514e">50</text>
+<text x="736" y="394" font-size="11" text-anchor="middle" fill="#52514e">60</text>
+<text x="400" y="424" font-size="12" text-anchor="middle" fill="#52514e">Доля операций над &#171;горячей&#187; записью, %</text>
+<text x="16" y="234" font-size="12" text-anchor="middle" fill="#52514e" transform="rotate(-90 16 234)">Отклонённые операции клиентов, %</text>
+<line x1="64" y1="366.77" x2="64" y2="361.55" stroke="#2a78d6" stroke-width="1" opacity="0.6"/>
+<line x1="176" y1="366.8" x2="176" y2="361.33" stroke="#2a78d6" stroke-width="1" opacity="0.6"/>
+<line x1="288" y1="365.58" x2="288" y2="358.08" stroke="#2a78d6" stroke-width="1" opacity="0.6"/>
+<line x1="400" y1="366.79" x2="400" y2="359.97" stroke="#2a78d6" stroke-width="1" opacity="0.6"/>
+<line x1="512" y1="363.69" x2="512" y2="357.33" stroke="#2a78d6" stroke-width="1" opacity="0.6"/>
+<line x1="624" y1="359.88" x2="624" y2="354.88" stroke="#2a78d6" stroke-width="1" opacity="0.6"/>
+<line x1="736" y1="359.21" x2="736" y2="352.99" stroke="#2a78d6" stroke-width="1" opacity="0.6"/>
+<path d="M64,364.16 L176,364.06 L288,361.83 L400,363.38 L512,360.51 L624,357.38 L736,356.1" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g><title>Adaptive: 0 → 4.2 ± 0.9</title><circle cx="64" cy="364.16" r="4.5" stroke="#fcfcfb" stroke-width="2" fill="#2a78d6"/></g>
+<g><title>Adaptive: 10 → 4.2 ± 1.0</title><circle cx="176" cy="364.06" r="4.5" stroke="#fcfcfb" stroke-width="2" fill="#2a78d6"/></g>
+<g><title>Adaptive: 20 → 5.0 ± 1.3</title><circle cx="288" cy="361.83" r="4.5" stroke="#fcfcfb" stroke-width="2" fill="#2a78d6"/></g>
+<g><title>Adaptive: 30 → 4.4 ± 1.2</title><circle cx="400" cy="363.38" r="4.5" stroke="#fcfcfb" stroke-width="2" fill="#2a78d6"/></g>
+<g><title>Adaptive: 40 → 5.5 ± 1.1</title><circle cx="512" cy="360.51" r="4.5" stroke="#fcfcfb" stroke-width="2" fill="#2a78d6"/></g>
+<g><title>Adaptive: 50 → 6.6 ± 0.9</title><circle cx="624" cy="357.38" r="4.5" stroke="#fcfcfb" stroke-width="2" fill="#2a78d6"/></g>
+<g><title>Adaptive: 60 → 7.0 ± 1.1</title><circle cx="736" cy="356.1" r="4.5" stroke="#fcfcfb" stroke-width="2" fill="#2a78d6"/></g>
+<line x1="64" y1="260.65" x2="64" y2="248.19" stroke="#eb6834" stroke-width="1" opacity="0.6"/>
+<line x1="176" y1="256.4" x2="176" y2="245.52" stroke="#eb6834" stroke-width="1" opacity="0.6"/>
+<line x1="288" y1="256.37" x2="288" y2="245.69" stroke="#eb6834" stroke-width="1" opacity="0.6"/>
+<line x1="400" y1="252.88" x2="400" y2="237.47" stroke="#eb6834" stroke-width="1" opacity="0.6"/>
+<line x1="512" y1="250.84" x2="512" y2="240.42" stroke="#eb6834" stroke-width="1" opacity="0.6"/>
+<line x1="624" y1="238.8" x2="624" y2="226.74" stroke="#eb6834" stroke-width="1" opacity="0.6"/>
+<line x1="736" y1="228.16" x2="736" y2="218.82" stroke="#eb6834" stroke-width="1" opacity="0.6"/>
+<path d="M64,254.42 L176,250.96 L288,251.03 L400,245.17 L512,245.63 L624,232.77 L736,223.49" fill="none" stroke="#eb6834" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g><title>ServerWins: 0 → 42.8 ± 2.2</title><rect x="59.5" y="249.92" width="9" height="9" stroke="#fcfcfb" stroke-width="2" fill="#eb6834"/></g>
+<g><title>ServerWins: 10 → 44.0 ± 1.9</title><rect x="171.5" y="246.46" width="9" height="9" stroke="#fcfcfb" stroke-width="2" fill="#eb6834"/></g>
+<g><title>ServerWins: 20 → 44.0 ± 1.9</title><rect x="283.5" y="246.53" width="9" height="9" stroke="#fcfcfb" stroke-width="2" fill="#eb6834"/></g>
+<g><title>ServerWins: 30 → 46.1 ± 2.7</title><rect x="395.5" y="240.67" width="9" height="9" stroke="#fcfcfb" stroke-width="2" fill="#eb6834"/></g>
+<g><title>ServerWins: 40 → 45.9 ± 1.8</title><rect x="507.5" y="241.13" width="9" height="9" stroke="#fcfcfb" stroke-width="2" fill="#eb6834"/></g>
+<g><title>ServerWins: 50 → 50.4 ± 2.1</title><rect x="619.5" y="228.27" width="9" height="9" stroke="#fcfcfb" stroke-width="2" fill="#eb6834"/></g>
+<g><title>ServerWins: 60 → 53.7 ± 1.6</title><rect x="731.5" y="218.99" width="9" height="9" stroke="#fcfcfb" stroke-width="2" fill="#eb6834"/></g>
+<line x1="64" y1="307.4" x2="64" y2="294.05" stroke="#1baf7a" stroke-width="1" opacity="0.6"/>
+<line x1="176" y1="309.48" x2="176" y2="295.34" stroke="#1baf7a" stroke-width="1" opacity="0.6"/>
+<line x1="288" y1="309.41" x2="288" y2="292.72" stroke="#1baf7a" stroke-width="1" opacity="0.6"/>
+<line x1="400" y1="303.95" x2="400" y2="288.9" stroke="#1baf7a" stroke-width="1" opacity="0.6"/>
+<line x1="512" y1="303.15" x2="512" y2="288.21" stroke="#1baf7a" stroke-width="1" opacity="0.6"/>
+<line x1="624" y1="294.15" x2="624" y2="281.78" stroke="#1baf7a" stroke-width="1" opacity="0.6"/>
+<line x1="736" y1="288.38" x2="736" y2="272.03" stroke="#1baf7a" stroke-width="1" opacity="0.6"/>
+<path d="M64,300.72 L176,302.41 L288,301.06 L400,296.42 L512,295.68 L624,287.97 L736,280.21" fill="none" stroke="#1baf7a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g><title>Lww: 0 → 26.5 ± 2.3</title><path d="M64,295.22 L69.5,305.22 L58.5,305.22 Z" stroke="#fcfcfb" stroke-width="2" fill="#1baf7a"/></g>
+<g><title>Lww: 10 → 25.9 ± 2.5</title><path d="M176,296.91 L181.5,306.91 L170.5,306.91 Z" stroke="#fcfcfb" stroke-width="2" fill="#1baf7a"/></g>
+<g><title>Lww: 20 → 26.4 ± 2.9</title><path d="M288,295.56 L293.5,305.56 L282.5,305.56 Z" stroke="#fcfcfb" stroke-width="2" fill="#1baf7a"/></g>
+<g><title>Lww: 30 → 28.0 ± 2.6</title><path d="M400,290.92 L405.5,300.92 L394.5,300.92 Z" stroke="#fcfcfb" stroke-width="2" fill="#1baf7a"/></g>
+<g><title>Lww: 40 → 28.3 ± 2.6</title><path d="M512,290.18 L517.5,300.18 L506.5,300.18 Z" stroke="#fcfcfb" stroke-width="2" fill="#1baf7a"/></g>
+<g><title>Lww: 50 → 31.0 ± 2.2</title><path d="M624,282.47 L629.5,292.47 L618.5,292.47 Z" stroke="#fcfcfb" stroke-width="2" fill="#1baf7a"/></g>
+<g><title>Lww: 60 → 33.7 ± 2.9</title><path d="M736,274.71 L741.5,284.71 L730.5,284.71 Z" stroke="#fcfcfb" stroke-width="2" fill="#1baf7a"/></g>
+<path d="M64,376 L176,376 L288,376 L400,376 L512,376 L624,376 L736,376" fill="none" stroke="#eda100" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g><title>ClientWins: 0 → 0.0 ± 0.0</title><path d="M64,370.5 L69.5,376 L64,381.5 L58.5,376 Z" stroke="#fcfcfb" stroke-width="2" fill="#eda100"/></g>
+<g><title>ClientWins: 10 → 0.0 ± 0.0</title><path d="M176,370.5 L181.5,376 L176,381.5 L170.5,376 Z" stroke="#fcfcfb" stroke-width="2" fill="#eda100"/></g>
+<g><title>ClientWins: 20 → 0.0 ± 0.0</title><path d="M288,370.5 L293.5,376 L288,381.5 L282.5,376 Z" stroke="#fcfcfb" stroke-width="2" fill="#eda100"/></g>
+<g><title>ClientWins: 30 → 0.0 ± 0.0</title><path d="M400,370.5 L405.5,376 L400,381.5 L394.5,376 Z" stroke="#fcfcfb" stroke-width="2" fill="#eda100"/></g>
+<g><title>ClientWins: 40 → 0.0 ± 0.0</title><path d="M512,370.5 L517.5,376 L512,381.5 L506.5,376 Z" stroke="#fcfcfb" stroke-width="2" fill="#eda100"/></g>
+<g><title>ClientWins: 50 → 0.0 ± 0.0</title><path d="M624,370.5 L629.5,376 L624,381.5 L618.5,376 Z" stroke="#fcfcfb" stroke-width="2" fill="#eda100"/></g>
+<g><title>ClientWins: 60 → 0.0 ± 0.0</title><path d="M736,370.5 L741.5,376 L736,381.5 L730.5,376 Z" stroke="#fcfcfb" stroke-width="2" fill="#eda100"/></g>
+<line x1="64" y1="356.43" x2="64" y2="348.98" stroke="#e87ba4" stroke-width="1" opacity="0.6"/>
+<line x1="176" y1="358.7" x2="176" y2="351.07" stroke="#e87ba4" stroke-width="1" opacity="0.6"/>
+<line x1="288" y1="355.54" x2="288" y2="345.65" stroke="#e87ba4" stroke-width="1" opacity="0.6"/>
+<line x1="400" y1="350.5" x2="400" y2="339.07" stroke="#e87ba4" stroke-width="1" opacity="0.6"/>
+<line x1="512" y1="345.84" x2="512" y2="336.45" stroke="#e87ba4" stroke-width="1" opacity="0.6"/>
+<line x1="624" y1="337.02" x2="624" y2="328.18" stroke="#e87ba4" stroke-width="1" opacity="0.6"/>
+<line x1="736" y1="327.28" x2="736" y2="316.16" stroke="#e87ba4" stroke-width="1" opacity="0.6"/>
+<path d="M64,352.7 L176,354.88 L288,350.6 L400,344.79 L512,341.15 L624,332.6 L736,321.72" fill="none" stroke="#e87ba4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g><title>FieldLwwNoSchema: 0 → 8.2 ± 1.3</title><path d="M59.5,348.2 L68.5,357.2 M68.5,348.2 L59.5,357.2" stroke="#e87ba4" stroke-width="2.5" stroke-linecap="round"/></g>
+<g><title>FieldLwwNoSchema: 10 → 7.4 ± 1.3</title><path d="M171.5,350.38 L180.5,359.38 M180.5,350.38 L171.5,359.38" stroke="#e87ba4" stroke-width="2.5" stroke-linecap="round"/></g>
+<g><title>FieldLwwNoSchema: 20 → 8.9 ± 1.7</title><path d="M283.5,346.1 L292.5,355.1 M292.5,346.1 L283.5,355.1" stroke="#e87ba4" stroke-width="2.5" stroke-linecap="round"/></g>
+<g><title>FieldLwwNoSchema: 30 → 11.0 ± 2.0</title><path d="M395.5,340.29 L404.5,349.29 M404.5,340.29 L395.5,349.29" stroke="#e87ba4" stroke-width="2.5" stroke-linecap="round"/></g>
+<g><title>FieldLwwNoSchema: 40 → 12.3 ± 1.7</title><path d="M507.5,336.65 L516.5,345.65 M516.5,336.65 L507.5,345.65" stroke="#e87ba4" stroke-width="2.5" stroke-linecap="round"/></g>
+<g><title>FieldLwwNoSchema: 50 → 15.3 ± 1.6</title><path d="M619.5,328.1 L628.5,337.1 M628.5,328.1 L619.5,337.1" stroke="#e87ba4" stroke-width="2.5" stroke-linecap="round"/></g>
+<g><title>FieldLwwNoSchema: 60 → 19.1 ± 2.0</title><path d="M731.5,317.22 L740.5,326.22 M740.5,317.22 L731.5,326.22" stroke="#e87ba4" stroke-width="2.5" stroke-linecap="round"/></g>
+</svg>

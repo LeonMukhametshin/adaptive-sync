@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="8.0.11" />
+    <PackageReference Include="Testcontainers.PostgreSql" Version="3.10.0" />
+    <PackageReference Include="Xunit.SkippableFact" Version="1.4.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Sync.Server\Sync.Server.csproj" />
+    <ProjectReference Include="..\..\src\Sync.Client\Sync.Client.csproj" />
+    <ProjectReference Include="..\..\src\Sync.Resolver\Sync.Resolver.csproj" />
+    <ProjectReference Include="..\..\src\Sync.Bench\Sync.Bench.csproj" />
+  </ItemGroup>
+
+</Project>

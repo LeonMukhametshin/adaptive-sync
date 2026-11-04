@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" width="760" height="440" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<rect width="760" height="440" fill="#fcfcfb"/>
+<text x="64" y="28" font-size="16" font-weight="600" fill="#0b0b0b">Потерянные приращения счётчиков, % — длина офлайна</text>
+<line x1="64" y1="54" x2="86" y2="54" stroke="#2a78d6" stroke-width="2" stroke-linecap="round"/>
+<circle cx="75" cy="54" r="4.5" stroke="#fcfcfb" stroke-width="2" fill="#2a78d6"/><text x="92" y="58" font-size="12" fill="#52514e">Adaptive</text>
+<line x1="160" y1="54" x2="182" y2="54" stroke="#eb6834" stroke-width="2" stroke-linecap="round"/>
+<rect x="166.5" y="49.5" width="9" height="9" stroke="#fcfcfb" stroke-width="2" fill="#eb6834"/><text x="188" y="58" font-size="12" fill="#52514e">ServerWins</text>
+<line x1="270" y1="54" x2="292" y2="54" stroke="#1baf7a" stroke-width="2" stroke-linecap="round"/>
+<path d="M281,48.5 L286.5,58.5 L275.5,58.5 Z" stroke="#fcfcfb" stroke-width="2" fill="#1baf7a"/><text x="298" y="58" font-size="12" fill="#52514e">Lww</text>
+<line x1="331" y1="54" x2="353" y2="54" stroke="#eda100" stroke-width="2" stroke-linecap="round"/>
+<path d="M342,48.5 L347.5,54 L342,59.5 L336.5,54 Z" stroke="#fcfcfb" stroke-width="2" fill="#eda100"/><text x="359" y="58" font-size="12" fill="#52514e">ClientWins</text>
+<line x1="441" y1="54" x2="463" y2="54" stroke="#e87ba4" stroke-width="2" stroke-linecap="round"/>
+<path d="M447.5,49.5 L456.5,58.5 M456.5,49.5 L447.5,58.5" stroke="#e87ba4" stroke-width="2.5" stroke-linecap="round"/><text x="469" y="58" font-size="12" fill="#52514e">FieldLwwNoSchema</text>
+<line x1="64" y1="376" x2="736" y2="376" stroke="#b9b8b2" stroke-width="1"/>
+<text x="56" y="380" font-size="11" text-anchor="end" fill="#52514e">0</text>
+<line x1="64" y1="319.2" x2="736" y2="319.2" stroke="#e4e3df" stroke-width="1"/>
+<text x="56" y="323.2" font-size="11" text-anchor="end" fill="#52514e">20</text>
+<line x1="64" y1="262.4" x2="736" y2="262.4" stroke="#e4e3df" stroke-width="1"/>
+<text x="56" y="266.4" font-size="11" text-anchor="end" fill="#52514e">40</text>
+<line x1="64" y1="205.6" x2="736" y2="205.6" stroke="#e4e3df" stroke-width="1"/>
+<text x="56" y="209.6" font-size="11" text-anchor="end" fill="#52514e">60</text>
+<line x1="64" y1="148.8" x2="736" y2="148.8" stroke="#e4e3df" stroke-width="1"/>
+<text x="56" y="152.8" font-size="11" text-anchor="end" fill="#52514e">80</text>
+<line x1="64" y1="92" x2="736" y2="92" stroke="#e4e3df" stroke-width="1"/>
+<text x="56" y="96" font-size="11" text-anchor="end" fill="#52514e">100</text>
+<text x="64" y="394" font-size="11" text-anchor="middle" fill="#52514e">1</text>
+<text x="138.67" y="394" font-size="11" text-anchor="middle" fill="#52514e">2</text>
+<text x="213.33" y="394" font-size="11" text-anchor="middle" fill="#52514e">3</text>
+<text x="288" y="394" font-size="11" text-anchor="middle" fill="#52514e">4</text>
+<text x="362.67" y="394" font-size="11" text-anchor="middle" fill="#52514e">5</text>
+<text x="437.33" y="394" font-size="11" text-anchor="middle" fill="#52514e">6</text>
+<text x="512" y="394" font-size="11" text-anchor="middle" fill="#52514e">7</text>
+<text x="586.67" y="394" font-size="11" text-anchor="middle" fill="#52514e">8</text>
+<text x="661.33" y="394" font-size="11" text-anchor="middle" fill="#52514e">9</text>
+<text x="736" y="394" font-size="11" text-anchor="middle" fill="#52514e">10</text>
+<text x="400" y="424" font-size="12" text-anchor="middle" fill="#52514e">Операций за сеанс офлайн</text>
+<text x="16" y="234" font-size="12" text-anchor="middle" fill="#52514e" transform="rotate(-90 16 234)">Потерянные приращения счётчиков, %</text>
+<line x1="362.67" y1="376" x2="362.67" y2="375.86" stroke="#2a78d6" stroke-width="1" opacity="0.6"/>
+<line x1="437.33" y1="376" x2="437.33" y2="375.85" stroke="#2a78d6" stroke-width="1" opacity="0.6"/>
+<line x1="512" y1="375.98" x2="512" y2="375.78" stroke="#2a78d6" stroke-width="1" opacity="0.6"/>
+<line x1="586.67" y1="376" x2="586.67" y2="375.86" stroke="#2a78d6" stroke-width="1" opacity="0.6"/>
+<line x1="661.33" y1="375.99" x2="661.33" y2="375.85" stroke="#2a78d6" stroke-width="1" opacity="0.6"/>
+<line x1="736" y1="375.98" x2="736" y2="375.77" stroke="#2a78d6" stroke-width="1" opacity="0.6"/>
+<path d="M64,376 L138.67,376 L213.33,376 L288,376 L362.67,375.96 L437.33,375.93 L512,375.88 L586.67,375.93 L661.33,375.92 L736,375.88" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g><title>Adaptive: 1 → 0.0 ± 0.0</title><circle cx="64" cy="376" r="4.5" stroke="#fcfcfb" stroke-width="2" fill="#2a78d6"/></g>
+<g><title>Adaptive: 2 → 0.0 ± 0.0</title><circle cx="138.67" cy="376" r="4.5" stroke="#fcfcfb" stroke-width="2" fill="#2a78d6"/></g>
+<g><title>Adaptive: 3 → 0.0 ± 0.0</title><circle cx="213.33" cy="376" r="4.5" stroke="#fcfcfb" stroke-width="2" fill="#2a78d6"/></g>
+<g><title>Adaptive: 4 → 0.0 ± 0.0</title><circle cx="288" cy="376" r="4.5" stroke="#fcfcfb" stroke-width="2" fill="#2a78d6"/></g>
+<g><title>Adaptive: 5 → 0.0 ± 0.0</title><circle cx="362.67" cy="375.96" r="4.5" stroke="#fcfcfb" stroke-width="2" fill="#2a78d6"/></g>
+<g><title>Adaptive: 6 → 0.0 ± 0.0</title><circle cx="437.33" cy="375.93" r="4.5" stroke="#fcfcfb" stroke-width="2" fill="#2a78d6"/></g>
+<g><title>Adaptive: 7 → 0.0 ± 0.0</title><circle cx="512" cy="375.88" r="4.5" stroke="#fcfcfb" stroke-width="2" fill="#2a78d6"/></g>
+<g><title>Adaptive: 8 → 0.0 ± 0.0</title><circle cx="586.67" cy="375.93" r="4.5" stroke="#fcfcfb" stroke-width="2" fill="#2a78d6"/></g>
+<g><title>Adaptive: 9 → 0.0 ± 0.0</title><circle cx="661.33" cy="375.92" r="4.5" stroke="#fcfcfb" stroke-width="2" fill="#2a78d6"/></g>
+<g><title>Adaptive: 10 → 0.0 ± 0.0</title><circle cx="736" cy="375.88" r="4.5" stroke="#fcfcfb" stroke-width="2" fill="#2a78d6"/></g>
+<line x1="64" y1="351.16" x2="64" y2="320.62" stroke="#eb6834" stroke-width="1" opacity="0.6"/>
+<line x1="138.67" y1="321.9" x2="138.67" y2="292.45" stroke="#eb6834" stroke-width="1" opacity="0.6"/>
+<line x1="213.33" y1="304.24" x2="213.33" y2="279.08" stroke="#eb6834" stroke-width="1" opacity="0.6"/>
+<line x1="288" y1="291.69" x2="288" y2="259.89" stroke="#eb6834" stroke-width="1" opacity="0.6"/>
+<line x1="362.67" y1="275.68" x2="362.67" y2="245.63" stroke="#eb6834" stroke-width="1" opacity="0.6"/>
+<line x1="437.33" y1="278.69" x2="437.33" y2="247.16" stroke="#eb6834" stroke-width="1" opacity="0.6"/>
+<line x1="512" y1="264.76" x2="512" y2="229.73" stroke="#eb6834" stroke-width="1" opacity="0.6"/>
+<line x1="586.67" y1="264.6" x2="586.67" y2="234.13" stroke="#eb6834" stroke-width="1" opacity="0.6"/>
+<line x1="661.33" y1="258.22" x2="661.33" y2="227.07" stroke="#eb6834" stroke-width="1" opacity="0.6"/>
+<line x1="736" y1="258.37" x2="736" y2="210.52" stroke="#eb6834" stroke-width="1" opacity="0.6"/>
+<path d="M64,335.89 L138.67,307.17 L213.33,291.66 L288,275.79 L362.67,260.65 L437.33,262.92 L512,247.24 L586.67,249.36 L661.33,242.65 L736,234.44" fill="none" stroke="#eb6834" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g><title>ServerWins: 1 → 14.1 ± 5.4</title><rect x="59.5" y="331.39" width="9" height="9" stroke="#fcfcfb" stroke-width="2" fill="#eb6834"/></g>
+<g><title>ServerWins: 2 → 24.2 ± 5.2</title><rect x="134.17" y="302.67" width="9" height="9" stroke="#fcfcfb" stroke-width="2" fill="#eb6834"/></g>
+<g><title>ServerWins: 3 → 29.7 ± 4.4</title><rect x="208.83" y="287.16" width="9" height="9" stroke="#fcfcfb" stroke-width="2" fill="#eb6834"/></g>
+<g><title>ServerWins: 4 → 35.3 ± 5.6</title><rect x="283.5" y="271.29" width="9" height="9" stroke="#fcfcfb" stroke-width="2" fill="#eb6834"/></g>
+<g><title>ServerWins: 5 → 40.6 ± 5.3</title><rect x="358.17" y="256.15" width="9" height="9" stroke="#fcfcfb" stroke-width="2" fill="#eb6834"/></g>
+<g><title>ServerWins: 6 → 39.8 ± 5.6</title><rect x="432.83" y="258.42" width="9" height="9" stroke="#fcfcfb" stroke-width="2" fill="#eb6834"/></g>
+<g><title>ServerWins: 7 → 45.3 ± 6.2</title><rect x="507.5" y="242.74" width="9" height="9" stroke="#fcfcfb" stroke-width="2" fill="#eb6834"/></g>
+<g><title>ServerWins: 8 → 44.6 ± 5.4</title><rect x="582.17" y="244.86" width="9" height="9" stroke="#fcfcfb" stroke-width="2" fill="#eb6834"/></g>
+<g><title>ServerWins: 9 → 47.0 ± 5.5</title><rect x="656.83" y="238.15" width="9" height="9" stroke="#fcfcfb" stroke-width="2" fill="#eb6834"/></g>
+<g><title>ServerWins: 10 → 49.8 ± 8.4</title><rect x="731.5" y="229.94" width="9" height="9" stroke="#fcfcfb" stroke-width="2" fill="#eb6834"/></g>
+<line x1="64" y1="297.4" x2="64" y2="253.28" stroke="#1baf7a" stroke-width="1" opacity="0.6"/>
+<line x1="138.67" y1="298.38" x2="138.67" y2="261.87" stroke="#1baf7a" stroke-width="1" opacity="0.6"/>
+<line x1="213.33" y1="293.71" x2="213.33" y2="267.2" stroke="#1baf7a" stroke-width="1" opacity="0.6"/>
+<line x1="288" y1="288.76" x2="288" y2="254.13" stroke="#1baf7a" stroke-width="1" opacity="0.6"/>
+<line x1="362.67" y1="287.58" x2="362.67" y2="258.56" stroke="#1baf7a" stroke-width="1" opacity="0.6"/>
+<line x1="437.33" y1="288.28" x2="437.33" y2="261.76" stroke="#1baf7a" stroke-width="1" opacity="0.6"/>
+<line x1="512" y1="270.03" x2="512" y2="241.94" stroke="#1baf7a" stroke-width="1" opacity="0.6"/>
+<line x1="586.67" y1="285.9" x2="586.67" y2="255.25" stroke="#1baf7a" stroke-width="1" opacity="0.6"/>
+<line x1="661.33" y1="275.29" x2="661.33" y2="248.65" stroke="#1baf7a" stroke-width="1" opacity="0.6"/>
+<line x1="736" y1="280.43" x2="736" y2="234.46" stroke="#1baf7a" stroke-width="1" opacity="0.6"/>
+<path d="M64,275.34 L138.67,280.13 L213.33,280.46 L288,271.45 L362.67,273.07 L437.33,275.02 L512,255.99 L586.67,270.57 L661.33,261.97 L736,257.44" fill="none" stroke="#1baf7a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g><title>Lww: 1 → 35.4 ± 7.8</title><path d="M64,269.84 L69.5,279.84 L58.5,279.84 Z" stroke="#fcfcfb" stroke-width="2" fill="#1baf7a"/></g>
+<g><title>Lww: 2 → 33.8 ± 6.4</title><path d="M138.67,274.63 L144.17,284.63 L133.17,284.63 Z" stroke="#fcfcfb" stroke-width="2" fill="#1baf7a"/></g>
+<g><title>Lww: 3 → 33.6 ± 4.7</title><path d="M213.33,274.96 L218.83,284.96 L207.83,284.96 Z" stroke="#fcfcfb" stroke-width="2" fill="#1baf7a"/></g>
+<g><title>Lww: 4 → 36.8 ± 6.1</title><path d="M288,265.95 L293.5,275.95 L282.5,275.95 Z" stroke="#fcfcfb" stroke-width="2" fill="#1baf7a"/></g>
+<g><title>Lww: 5 → 36.2 ± 5.1</title><path d="M362.67,267.57 L368.17,277.57 L357.17,277.57 Z" stroke="#fcfcfb" stroke-width="2" fill="#1baf7a"/></g>
+<g><title>Lww: 6 → 35.6 ± 4.7</title><path d="M437.33,269.52 L442.83,279.52 L431.83,279.52 Z" stroke="#fcfcfb" stroke-width="2" fill="#1baf7a"/></g>
+<g><title>Lww: 7 → 42.3 ± 4.9</title><path d="M512,250.49 L517.5,260.49 L506.5,260.49 Z" stroke="#fcfcfb" stroke-width="2" fill="#1baf7a"/></g>
+<g><title>Lww: 8 → 37.1 ± 5.4</title><path d="M586.67,265.07 L592.17,275.07 L581.17,275.07 Z" stroke="#fcfcfb" stroke-width="2" fill="#1baf7a"/></g>
+<g><title>Lww: 9 → 40.2 ± 4.7</title><path d="M661.33,256.47 L666.83,266.47 L655.83,266.47 Z" stroke="#fcfcfb" stroke-width="2" fill="#1baf7a"/></g>
+<g><title>Lww: 10 → 41.7 ± 8.1</title><path d="M736,251.94 L741.5,261.94 L730.5,261.94 Z" stroke="#fcfcfb" stroke-width="2" fill="#1baf7a"/></g>
+<line x1="64" y1="315.45" x2="64" y2="270.12" stroke="#eda100" stroke-width="1" opacity="0.6"/>
+<line x1="138.67" y1="311.35" x2="138.67" y2="280.57" stroke="#eda100" stroke-width="1" opacity="0.6"/>
+<line x1="213.33" y1="310.14" x2="213.33" y2="282.95" stroke="#eda100" stroke-width="1" opacity="0.6"/>
+<line x1="288" y1="306.58" x2="288" y2="284.63" stroke="#eda100" stroke-width="1" opacity="0.6"/>
+<line x1="362.67" y1="320.31" x2="362.67" y2="295.06" stroke="#eda100" stroke-width="1" opacity="0.6"/>
+<line x1="437.33" y1="309.76" x2="437.33" y2="290.97" stroke="#eda100" stroke-width="1" opacity="0.6"/>
+<line x1="512" y1="322.19" x2="512" y2="303.2" stroke="#eda100" stroke-width="1" opacity="0.6"/>
+<line x1="586.67" y1="317.56" x2="586.67" y2="303.04" stroke="#eda100" stroke-width="1" opacity="0.6"/>
+<line x1="661.33" y1="310.48" x2="661.33" y2="293.19" stroke="#eda100" stroke-width="1" opacity="0.6"/>
+<line x1="736" y1="320.86" x2="736" y2="302.21" stroke="#eda100" stroke-width="1" opacity="0.6"/>
+<path d="M64,292.79 L138.67,295.96 L213.33,296.55 L288,295.61 L362.67,307.68 L437.33,300.36 L512,312.7 L586.67,310.3 L661.33,301.83 L736,311.53" fill="none" stroke="#eda100" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g><title>ClientWins: 1 → 29.3 ± 8.0</title><path d="M64,287.29 L69.5,292.79 L64,298.29 L58.5,292.79 Z" stroke="#fcfcfb" stroke-width="2" fill="#eda100"/></g>
+<g><title>ClientWins: 2 → 28.2 ± 5.4</title><path d="M138.67,290.46 L144.17,295.96 L138.67,301.46 L133.17,295.96 Z" stroke="#fcfcfb" stroke-width="2" fill="#eda100"/></g>
+<g><title>ClientWins: 3 → 28.0 ± 4.8</title><path d="M213.33,291.05 L218.83,296.55 L213.33,302.05 L207.83,296.55 Z" stroke="#fcfcfb" stroke-width="2" fill="#eda100"/></g>
+<g><title>ClientWins: 4 → 28.3 ± 3.9</title><path d="M288,290.11 L293.5,295.61 L288,301.11 L282.5,295.61 Z" stroke="#fcfcfb" stroke-width="2" fill="#eda100"/></g>
+<g><title>ClientWins: 5 → 24.1 ± 4.4</title><path d="M362.67,302.18 L368.17,307.68 L362.67,313.18 L357.17,307.68 Z" stroke="#fcfcfb" stroke-width="2" fill="#eda100"/></g>
+<g><title>ClientWins: 6 → 26.6 ± 3.3</title><path d="M437.33,294.86 L442.83,300.36 L437.33,305.86 L431.83,300.36 Z" stroke="#fcfcfb" stroke-width="2" fill="#eda100"/></g>
+<g><title>ClientWins: 7 → 22.3 ± 3.3</title><path d="M512,307.2 L517.5,312.7 L512,318.2 L506.5,312.7 Z" stroke="#fcfcfb" stroke-width="2" fill="#eda100"/></g>
+<g><title>ClientWins: 8 → 23.1 ± 2.6</title><path d="M586.67,304.8 L592.17,310.3 L586.67,315.8 L581.17,310.3 Z" stroke="#fcfcfb" stroke-width="2" fill="#eda100"/></g>
+<g><title>ClientWins: 9 → 26.1 ± 3.0</title><path d="M661.33,296.33 L666.83,301.83 L661.33,307.33 L655.83,301.83 Z" stroke="#fcfcfb" stroke-width="2" fill="#eda100"/></g>
+<g><title>ClientWins: 10 → 22.7 ± 3.3</title><path d="M736,306.03 L741.5,311.53 L736,317.03 L730.5,311.53 Z" stroke="#fcfcfb" stroke-width="2" fill="#eda100"/></g>
+<line x1="64" y1="375.75" x2="64" y2="365.88" stroke="#e87ba4" stroke-width="1" opacity="0.6"/>
+<line x1="138.67" y1="363.47" x2="138.67" y2="352.75" stroke="#e87ba4" stroke-width="1" opacity="0.6"/>
+<line x1="213.33" y1="350.99" x2="213.33" y2="332.85" stroke="#e87ba4" stroke-width="1" opacity="0.6"/>
+<line x1="288" y1="341.57" x2="288" y2="313.19" stroke="#e87ba4" stroke-width="1" opacity="0.6"/>
+<line x1="362.67" y1="324.62" x2="362.67" y2="294.98" stroke="#e87ba4" stroke-width="1" opacity="0.6"/>
+<line x1="437.33" y1="326.41" x2="437.33" y2="302.82" stroke="#e87ba4" stroke-width="1" opacity="0.6"/>
+<line x1="512" y1="310.87" x2="512" y2="285.95" stroke="#e87ba4" stroke-width="1" opacity="0.6"/>
+<line x1="586.67" y1="323.21" x2="586.67" y2="296.15" stroke="#e87ba4" stroke-width="1" opacity="0.6"/>
+<line x1="661.33" y1="309.08" x2="661.33" y2="285.79" stroke="#e87ba4" stroke-width="1" opacity="0.6"/>
+<line x1="736" y1="302.3" x2="736" y2="268.11" stroke="#e87ba4" stroke-width="1" opacity="0.6"/>
+<path d="M64,370.82 L138.67,358.11 L213.33,341.92 L288,327.38 L362.67,309.8 L437.33,314.62 L512,298.41 L586.67,309.68 L661.33,297.43 L736,285.21" fill="none" stroke="#e87ba4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g><title>FieldLwwNoSchema: 1 → 1.8 ± 1.7</title><path d="M59.5,366.32 L68.5,375.32 M68.5,366.32 L59.5,375.32" stroke="#e87ba4" stroke-width="2.5" stroke-linecap="round"/></g>
+<g><title>FieldLwwNoSchema: 2 → 6.3 ± 1.9</title><path d="M134.17,353.61 L143.17,362.61 M143.17,353.61 L134.17,362.61" stroke="#e87ba4" stroke-width="2.5" stroke-linecap="round"/></g>
+<g><title>FieldLwwNoSchema: 3 → 12.0 ± 3.2</title><path d="M208.83,337.42 L217.83,346.42 M217.83,337.42 L208.83,346.42" stroke="#e87ba4" stroke-width="2.5" stroke-linecap="round"/></g>
+<g><title>FieldLwwNoSchema: 4 → 17.1 ± 5.0</title><path d="M283.5,322.88 L292.5,331.88 M292.5,322.88 L283.5,331.88" stroke="#e87ba4" stroke-width="2.5" stroke-linecap="round"/></g>
+<g><title>FieldLwwNoSchema: 5 → 23.3 ± 5.2</title><path d="M358.17,305.3 L367.17,314.3 M367.17,305.3 L358.17,314.3" stroke="#e87ba4" stroke-width="2.5" stroke-linecap="round"/></g>
+<g><title>FieldLwwNoSchema: 6 → 21.6 ± 4.2</title><path d="M432.83,310.12 L441.83,319.12 M441.83,310.12 L432.83,319.12" stroke="#e87ba4" stroke-width="2.5" stroke-linecap="round"/></g>
+<g><title>FieldLwwNoSchema: 7 → 27.3 ± 4.4</title><path d="M507.5,293.91 L516.5,302.91 M516.5,293.91 L507.5,302.91" stroke="#e87ba4" stroke-width="2.5" stroke-linecap="round"/></g>
+<g><title>FieldLwwNoSchema: 8 → 23.4 ± 4.8</title><path d="M582.17,305.18 L591.17,314.18 M591.17,305.18 L582.17,314.18" stroke="#e87ba4" stroke-width="2.5" stroke-linecap="round"/></g>
+<g><title>FieldLwwNoSchema: 9 → 27.7 ± 4.1</title><path d="M656.83,292.93 L665.83,301.93 M665.83,292.93 L656.83,301.93" stroke="#e87ba4" stroke-width="2.5" stroke-linecap="round"/></g>
+<g><title>FieldLwwNoSchema: 10 → 32.0 ± 6.0</title><path d="M731.5,280.71 L740.5,289.71 M740.5,280.71 L731.5,289.71" stroke="#e87ba4" stroke-width="2.5" stroke-linecap="round"/></g>
+</svg>

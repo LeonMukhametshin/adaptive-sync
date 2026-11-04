@@ -1,0 +1,58 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: adaptive-sync-postgres
+    environment:
+      POSTGRES_DB: adaptive_sync
+      POSTGRES_USER: sync
+      POSTGRES_PASSWORD: sync_dev
+    ports:
+      - "55432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U sync -d adaptive_sync"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  resolver:
+    build:
+      context: .
+      dockerfile: src/Sync.Resolver/Dockerfile
+    image: adaptive-sync-resolver
+    container_name: adaptive-sync-resolver
+    environment:
+      Resolver__Strategy: ${RESOLVER_STRATEGY:-Adaptive}
+      Resolver__AllowStrategySwitch: "true"
+    ports:
+      - "5081:8080"
+    healthcheck:
+      test: ["CMD-SHELL", "bash -c 'exec 3<>/dev/tcp/127.0.0.1/8080'"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped
+
+  server:
+    build:
+      context: .
+      dockerfile: src/Sync.Server/Dockerfile
+    image: adaptive-sync-server
+    container_name: adaptive-sync-server
+    environment:
+      ConnectionStrings__Sync: "Host=postgres;Port=5432;Database=adaptive_sync;Username=sync;Password=sync_dev"
+      Sync__Strategy: ServerWins
+      Sync__ResolverUrl: "http://resolver:8080/"
+      Sync__AllowStrategySwitch: "true"
+    ports:
+      - "5080:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      resolver:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  pgdata:

@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="App.uss" />
+    <Style src="Preloader.uss" />
+    <ui:VisualElement name="app" class="app boot">
+        <ui:VisualElement class="boot__center">
+            <ui:VisualElement class="boot__logo">
+                <ui:Label text="AS" class="boot__logo-text" />
+            </ui:VisualElement>
+            <ui:Label text="Adaptive Sync" class="boot__title" />
+            <ui:Label text="Синхронизация с учётом версий схем" class="boot__subtitle" />
+        </ui:VisualElement>
+        <ui:VisualElement class="boot__bottom">
+            <ui:Label name="boot-step" text="Подготовка..." class="boot__step" />
+            <ui:VisualElement class="progress">
+                <ui:VisualElement name="boot-progress-fill" class="progress__fill" />
+            </ui:VisualElement>
+            <ui:Label name="boot-percent" text="0%" class="boot__percent" />
+            <ui:VisualElement name="boot-error" class="boot__error">
+                <ui:Label name="boot-error-text" class="boot__error-text" />
+                <ui:Button name="boot-retry" text="Повторить" class="button button--primary" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Sync.Client\Sync.Client.csproj" />
+  </ItemGroup>
+
+</Project>

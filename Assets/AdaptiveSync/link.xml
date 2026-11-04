@@ -1,0 +1,11 @@
+<linker>
+  <assembly fullname="Sync.Core" preserve="all" />
+  <assembly fullname="Sync.Client" preserve="all" />
+  <assembly fullname="Microsoft.Data.Sqlite" preserve="all" />
+  <assembly fullname="SQLitePCLRaw.core" preserve="all" />
+  <assembly fullname="SQLitePCLRaw.provider.e_sqlite3" preserve="all" />
+  <assembly fullname="SQLitePCLRaw.batteries_v2" preserve="all" />
+  <assembly fullname="System.Text.Json" preserve="all" />
+  <assembly fullname="System.Text.Encodings.Web" preserve="all" />
+  <assembly fullname="System.Net.Http" preserve="all" />
+</linker>

@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Sync.Strategies\Sync.Strategies.csproj" />
+    <ProjectReference Include="..\..\src\Sync.Simulation\Sync.Simulation.csproj" />
+  </ItemGroup>
+
+</Project>
